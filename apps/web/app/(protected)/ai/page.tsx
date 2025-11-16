@@ -37,7 +37,7 @@ export default function AIGameCreatorPage() {
 
 
 
-  
+
   const handleGenerate = async () => {
     if (description.length < 10) {
       toast.error(
@@ -152,6 +152,11 @@ export default function AIGameCreatorPage() {
                       )}
                     </button>
                   </div>
+
+
+
+
+
 
                   {/* Character Counter */}
                   <div className="flex items-center justify-between px-3">
