@@ -34,6 +34,10 @@ export default function AIGameCreatorPage() {
     }
   }, [description]);
 
+
+
+
+  
   const handleGenerate = async () => {
     if (description.length < 10) {
       toast.error(
