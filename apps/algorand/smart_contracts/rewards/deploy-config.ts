@@ -43,6 +43,8 @@ export async function deploy() {
     });
   }
 
+
+  
   consoleLogger.info(
     `✅ Deployed GameRewards Contract: id=${appClient.appClient.appId} address=${appClient.appAddress}`
   );
