@@ -9,12 +9,11 @@ import {
   Txn,
   Uint64,
   type uint64,
-  BoxMap,
+  BoxMap, 
   gtxn,
   Box,
   Application,
 } from "@algorandfoundation/algorand-typescript";
-
 /**
  * GameRewards Smart Contract
  *
@@ -28,6 +27,9 @@ export class GameRewards extends Contract {
   // Admin who can verify milestone claims
   admin = GlobalState<Account>();
 
+ 
+ 
+ 
   // Total ALGO pool available for rewards
   totalPool = GlobalState<uint64>();
 
